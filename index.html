@@ -17,11 +17,21 @@
       <button id="getImageBtn">Fetch Space Images</button>
     </div>
 
+    <div id="loading">Click "Fetch Space Images" to explore the cosmos!</div>
+
     <div id="gallery" class="gallery">
-      <div class="placeholder">
-        <div class="placeholder-icon">🔭</div>
-        <p>Click "Fetch Space Images" to explore the cosmos!</p>
-      </div>
+      <!-- Gallery items will be injected here -->
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeBtn" class="close">&times;</span>
+      <div id="modal-media"></div>
+      <h2 id="modal-title"></h2>
+      <p id="modal-date"></p>
+      <p id="modal-explanation"></p>
     </div>
   </div>
 
